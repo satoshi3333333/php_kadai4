@@ -1,0 +1,59 @@
+/* テーブル全体のスタイル */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    text-align: left;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+/* テーブルヘッダーのスタイル */
+table th {
+    background-color: #4a5b6f;
+    color: white;
+    padding: 12px;
+    font-weight: bold;
+    border: 1px solid #ddd;
+}
+
+/* テーブルデータのスタイル */
+table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    vertical-align: top;
+}
+
+/* 行の色を交互に変える */
+table tr:nth-child(even) {
+    background-color: #f1f1f1;
+}
+
+table tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+/* 行のホバー効果 */
+table tr:hover {
+    background-color: #e6e6e6;
+}
+
+/* テーブル全体の余白 */
+table td:first-child,
+table th:first-child {
+    text-align: center;
+}
+
+/* リンクのスタイル */
+table a {
+    color: #4a5b6f;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+table a:hover {
+    text-decoration: underline;
+    color: #333;
+}

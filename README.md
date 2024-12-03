@@ -5,7 +5,7 @@
 アンケートフォームの管理画面にログインできるサイト
 
 ## ③アプリのデプロイURL
-デプロイしている場合はURLを記入（任意）
+https://satoshi333.sakura.ne.jp/php_kadai4_sakura/login.php
 
 ## ④アプリのログイン用IDまたはPassword（ある場合）
 - ID: 〇〇〇〇〇〇〇〇
